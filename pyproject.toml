@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "api-sales-alma-colibri"
+version = "0.1.0"
+description = ""
+authors = ["andres jaimovich <andijaimo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.1"
+sqlalchemy = "^2.0.20"
+geoalchemy2 = "^0.14.1"
+uvicorn = "^0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

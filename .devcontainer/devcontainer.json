@@ -1,0 +1,16 @@
+{
+	"name": "Traffic API - FastAPI",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces",
+	"remoteUser": "root",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.black-formatter",
+				"ms-python.flake8",
+				"ms-python.isort"
+			]
+		}
+	}
+}
