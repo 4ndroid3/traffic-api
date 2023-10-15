@@ -2,7 +2,7 @@
 	"name": "Traffic API - FastAPI",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/workspaces",
+	"workspaceFolder": "/workspaces/traffic-api",
 	"remoteUser": "root",
 	"customizations": {
 		"vscode": {
